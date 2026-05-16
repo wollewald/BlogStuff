@@ -11,5 +11,5 @@ void loop() {
   delay(1000);                      
   digitalWrite(PB3, LOW); 
   delay(1000);              
-  softSerial.println("Hallo");
+  softSerial.println("Hello World");
 }
